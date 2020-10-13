@@ -37,7 +37,7 @@ def CPI_calc(df, cpi_dict): #adjust revenue for inflation
     
     df['domestic_adj']=df.domestic_gross*df.CPI_ratio
     df['budget_adj']=df.film_budget*df.CPI_ratio
-    df['budget_adj']=df.worldwide_gross*df.CPI_ratio
+    df['worldwide_adj']=df.worldwide_gross*df.CPI_ratio
     return df
 
 #%% Clean Data
