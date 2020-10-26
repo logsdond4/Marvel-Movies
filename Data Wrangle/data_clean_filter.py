@@ -5,7 +5,6 @@ Date: 10/12/2020
 
 Description: This code analyzes the top 10 movies for the past 20 years.
 
-
 """
 
 #%% Import Packages
